@@ -27,17 +27,13 @@ Julian Kevon Glover is a scholar and artist who graduated with honors from South
 
 Jackie Bishop Wells graduated from the VCU Graphic Design Program in 2008 with a BA in Fine Arts. She has owned Fallout—Richmond’s Premier Goth Industrial Fetish Nightclub—since 2015 and has been organizing events and working with the BDSM, Leather, LGBTQIA+ and Alternative Communities in the Richmond, Virginia area for over 10 years.
 
-rotting_reign
-Logo Artist
+rotting_reign, Logo Artist
 
-Vanna 
-Sound Engineer
+Vanna, Sound Engineer
 
-Andy
-Production Manager 
+Andy Clifford, Production Manager 
 
-David Riley
-Curator
+David Riley, Curator
 
 # KEYWORDS 
 WRESTLING, BDSM, TEAMMATE INTIMACIES, DOG TRAINING, ATHLETICS, FAILURE, BLACK LESBIANS, LEATHERDYKES, NOISE, DARK AMBIENT, NEW MEDIA
