@@ -2,11 +2,12 @@
 <html>
 <head>
     <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>&hearts; DEWCLAW, LIVE! &hearts;</title>
+    <title># &hearts; # DEWCLAW, LIVE! # &hearts; # </title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <meta name="description" content="DEWCLAW%20LIVE.WINDOW, an interactive pop-up powered artwork by SHAWNÉ MICHAELAIN HOLLOWAY. This work is a remediation of the performance and installation, DEWCLAW, commissioned by Institute for Contemporary Art at Virginia Commonwealth University, created in March of 2022.">
-    <meta name="author" content="SHAWNE MICHAELAIN HOLLOWAY">
+    <meta name="author" content="SHAWNÉ MICHAELAIN HOLLOWAY">
+    <meta name="keywords" content="SHAWNÉ MICHAELAIN HOLLOWAY, PREPOP, WRESTLING, BDSM, TEAMMATE INTIMACIES, DOG TRAINING, ATHLETICS, FAILURE, BLACK LESBIANS, LEATHERDYKES, NOISE, DARK AMBIENT, NEW MEDIA">
+    
 
     <!-- social media stuff -->
     <meta property="og:title" content="&hearts; # DEWCLAW_LIVE # &hearts; # DEWCLAW_LIVE # &hearts;">
@@ -17,7 +18,7 @@
     <meta property="og:site_name" content="https://dewclaw.live">
     <meta name="twitter:site" content="@cleogirl2525">
 
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../www/css/css.css'>
 </head>
 <body>
 
@@ -26,15 +27,16 @@
     <section class="wrap">
     <div class="broken">
           <center><p>
-            <center><b>DEWCLAW%20LIVE.WINDOW</b></center><br>
+            <center><h1><b>DEWCLAW%20LIVE.WINDOW</b></h1></center><br>
             <input id="pw" type="password" placeholder="enter password here">
-            <button id="login">login</button>
-            <div class="error-message"></div></div>
+            <button id="login">login</button><br><br>
+            <div class="error-message"></div></div><br><br>
+          </div>
+    
+          <div class="broken">
+        <b><h1>ABOUT THE PERFORMANCE</h1></b><br>
 
-      <div class="broken">
-        <b>ABOUT THE PERFORMANCE</b><br>
-
-        A DEWCLAW is an often-vestigial “non-weight bearing” toe on that appears just above the paw on cats, dogs and other mammals. When you search for the term on the web, hundreds of results are returned about the contentious discourse on Dewclaw removal; how the claw is attached, if it is ethical to remove it, the pain and complications that can come thereafter, as well as what to do if your pet’s extra claw is accidentally injured. <br><br>
+        A DEWCLAW is an often-vestigial “non-weight bearing” toe that appears just above the paw on cats, dogs and other mammals. When you search for the term on the web, hundreds of results are returned about the contentious discourse on Dewclaw removal; how the claw is attached, if it is ethical to remove it, the pain and complications that can come thereafter, as well as what to do if your pet’s extra claw is accidentally injured. <br><br>
 
         SHAWNÉ MICHAELAIN HOLLOWAY’s performance by the same name is a realtime multimedia composition that uses the choreography of common sadomasochist bondage play and the faux-rage fueled narrative vocalization styles of 1980 and 90’s wrestling promos, to consider old and forgotten memories, movements, habits, desires, and dreams we hold on to and assimilate into our bodies and identities.  <br><br>
 
@@ -44,38 +46,23 @@
 
          <br>DEWCLAW%20LIVE.WINDOW</b> is a internet art experience built in a software application called prePoP that was developed by Chicago new media artist <a href="http://nickbriz.com">Nick Briz</a>. <br><br><br>
 
-        <b>VIRTUAL PRODUCTION CREW</b><br>
-         Code: <a href="http://nickbriz.com">Nick Briz</a> + SHAWNE MICHAELAIN HOLLOWAY<br>
+
+         <b><h1>VIRTUAL PRODUCTION CREW</h1></b><br>
+         Code: <a href="http://nickbriz.com">Nick Briz</a> + SHAWNÉ MICHAELAIN HOLLOWAY<br>
          Music: <a href="http://terranwretch.bandcamp.com">Terran Wretch/Anthony A. Dunn</a><br>
-         Performers: T Cake, Kitten, Ms TnT Impact, SHAWNE MICHAELAIN HOLLOWAY
+         Performers: T Cake, Kitten, Ms TnT Impact, SHAWNÉ<br>
          Videographer: TKTK <br>
-         Lighting Design: Ethan TKTK
-         Logo: <a href="https://www.instagram.com/rotting_reign/">@rotting_reign</a><br>
+         Lighting Design: Ethan TKTK<br>
+         Logo: <a href="https://www.instagram.com/rotting_reign/">@rotting_reign</a><br><br><br>
+         <center><h1>&hearts;</h1><br>
+         <br>Find out about more of SHAWNÉ's work on <a href="http://www.shawnemichaelainholloway.com/the-chamber-series">her website</a>.<br><br></center>
 
-         <br><br><b>++Find more of SHAWNE's work <a href="http://www.shawnemichaelainholloway.com/the-chamber-series">her website</a>.</b><br><br>
-
-         <center><h1>&hearts;</h1></center><br>
-
-
-
+          </div>
 </div>
     <br><br>
 
       </p></center>
     </section>
-
-
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="/js/pub-main.js"></script>
-    <script>
-      const socket = io()
-      window.postLogin('#login', '#pw', (res) => {
-        if (res.error) { $('.error-message').textContent = res.error }
-        else if (res.message === 'access granted') {
-          window.location = window.location.origin + '/show'
-        }
-      })
-    </script>
     
 </body>
 </html>
