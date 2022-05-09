@@ -47,11 +47,12 @@
     font-weight: 700;
     text-transform: none;
   }
-  
+
   h1 {
     text-align: center;
     color: #e5ff00;
     font-family: 'Russo One', sans-serif;
+    text-shadow: 2px 2px 2px black;
   }
   
   input {
@@ -102,5 +103,5 @@
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #e5ff00;
+    background: rgb(229, 255, 0)
   }
