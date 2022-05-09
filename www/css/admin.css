@@ -1,0 +1,51 @@
+#admin-panel {
+    font-family: monospace;
+  }
+  
+  #top-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  #top-row > span {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .title-bar {
+    padding: 40px 20px 20px 20px;
+  }
+  
+  .col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    height: calc(50vh - 69px);
+  }
+  
+  .col-1 {
+    height: calc(50vh - 69px);
+  }
+  
+  iframe {
+    display: block;
+    width: 100%;
+    border: 1px solid white;
+    height: calc(100% - 77px);
+  }
+  
+  a {
+    color: #E6DB6F;
+  }
+  
+  b {
+    color: #FC7575;
+  }
+  
+  #refresh-pw, #refresh-a {
+    font-style: normal;
+    color: #82E22E;
+    text-decoration: underline;
+    cursor: pointer;
+  }
