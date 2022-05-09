@@ -99,8 +99,8 @@
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: white;
-    border: 1px solid white;
+    background: #000;
+    border: 1px solid #000;
   }
   
   /* Handle on hover */
