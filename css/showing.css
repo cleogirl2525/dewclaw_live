@@ -2,7 +2,9 @@
 
 body {
   margin: 0;
-  background: #000;
+  background-color: #000;
+  background-image: url('../images/chainLink.png');
+  background-size: 180%;
   font-family: 'Courier Prime', monospace;
 }
 
