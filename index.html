@@ -7,7 +7,7 @@
     <meta name="description" content="DEWCLAW%20LIVE.WINDOW, an interactive pop-up powered artwork by SHAWNÉ MICHAELAIN HOLLOWAY. This work is a remediation of the performance and installation, DEWCLAW, commissioned by Institute for Contemporary Art at Virginia Commonwealth University, created in March of 2022.">
     <meta name="author" content="SHAWNÉ MICHAELAIN HOLLOWAY">
     <meta name="keywords" content="SHAWNÉ MICHAELAIN HOLLOWAY, PREPOP, WRESTLING, BDSM, TEAMMATE INTIMACIES, DOG TRAINING, ATHLETICS, FAILURE, BLACK LESBIANS, LEATHERDYKES, NOISE, DARK AMBIENT, NEW MEDIA">
-    
+
 
     <!-- social media stuff -->
     <meta property="og:title" content="&hearts; # DEWCLAW_LIVE # &hearts; # DEWCLAW_LIVE # &hearts;">
@@ -18,7 +18,7 @@
     <meta property="og:site_name" content="https://dewclaw.live">
     <meta name="twitter:site" content="@cleogirl2525">
 
-    <link rel='stylesheet' type='text/css' media='screen' href='../www/css/css.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/css.css'>
 </head>
 <body>
 
@@ -29,11 +29,12 @@
           <center><p>
             <center><br>
               <img src="images/dcLogoBlack.png" alt="abstract black metal style logo, says the word dewclaw" width="50%" height="50%"></center><br>
-            <input id="pw" type="password" placeholder="enter password here">
-            <button id="login">login</button><br><br>
+            <!-- <input id="pw" type="password" placeholder="enter password here"> -->
+            <!-- <button id="login">login</button><br><br> -->
+            <button id="enter">enter</button><br><br>
             <div class="error-message"></div></div><br><br>
           </div>
-    
+
           <div class="broken">
         <b><h1>ABOUT THE DEWCLAW%20LIVE.WINDOW</h1></b><br>
         DEWCLAW%20LIVE.WINDOW</b> is documentation of SHAWNÉ MICHAELAIN HOLLOWAY's performance DEWCLAW built in a software application called prePoP that was developed by Chicago new media artist <a href="http://nickbriz.com">Nick Briz</a>. Read more about the project below :<br><br>
@@ -63,6 +64,11 @@
 
       </p></center>
     </section>
-    
+
+    <script>
+      document.querySelector('#enter').addEventListener('click', () => {
+        window.location = 'showing.html'
+      })
+    </script>
 </body>
 </html>

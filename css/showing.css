@@ -1,0 +1,51 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #000;
+  font-family: 'Courier Prime', monospace;
+}
+
+button {
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: crosshair;
+  font-family: 'Courier Prime', monospace;
+}
+
+
+.showing {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.showing p {
+  color: #fff;
+  max-width: 500px;
+}
+
+.showing a {
+  color: #fff;
+}
+
+#logo {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+#mobile-disclaimer,
+#pop-ups-blocked,
+#chrome-disclaimer,
+button#start  {
+  display: none;
+}
+
+#track {
+  display: none;
+}
